@@ -1,7 +1,6 @@
 {
   "name": "superman_final",
   "homepage": "https://kaidesalo.github.io/SDEV_255_Final_Project_Superman/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
