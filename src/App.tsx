@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -19,12 +19,12 @@ function App() {
                   
                   <form>
                     <div className="mb-3">
-                      <label for="email" className="form-label">Email address</label>
+                      <label htmlFor="email" className="form-label">Email address</label>
                       <input type="email" className="form-control bg-dark text-white border-secondary" id="email" placeholder="name@example.com" required />
                     </div>
 
                     <div className="mb-3">
-                      <label for="password" className="form-label">Password</label>
+                      <label htmlFor="password" className="form-label">Password</label>
                       <input type="password" className="form-control bg-dark text-white border-secondary" id="password" required />
                     </div>
 
@@ -65,7 +65,7 @@ function App() {
         <div className="">
           <div className="row">
             <div className="col-md-1">
-              <div class="d-grid gap-2">
+              <div className="d-grid gap-2">
                 <button className="btn btn-primary btn-sm btn-block" type="button">My Schedule</button>
                 <button className="btn btn-primary btn-sm btn-block" type="button">Add Class</button>
               </div>
@@ -104,7 +104,7 @@ function App() {
         <div className="">
           <div className="row">
             <div className="col-md-1">
-              <div class="d-grid gap-2">
+              <div className="d-grid gap-2">
                 <button className="btn btn-primary btn-sm btn-block" type="button">Students</button>
                 <button className="btn btn-primary btn-sm btn-block" type="button">Classes</button>
               </div>
