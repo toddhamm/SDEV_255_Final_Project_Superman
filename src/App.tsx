@@ -18,17 +18,17 @@ function App() {
                   <h3 className="text-center mb-4">Sign In</h3>
                   
                   <form>
-                    <div class="mb-3">
-                      <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control bg-dark text-white border-secondary" id="email" placeholder="name@example.com" required />
+                    <div className="mb-3">
+                      <label for="email" className="form-label">Email address</label>
+                      <input type="email" className="form-control bg-dark text-white border-secondary" id="email" placeholder="name@example.com" required />
                     </div>
 
-                    <div class="mb-3">
-                      <label for="password" class="form-label">Password</label>
-                      <input type="password" class="form-control bg-dark text-white border-secondary" id="password" required />
+                    <div className="mb-3">
+                      <label for="password" className="form-label">Password</label>
+                      <input type="password" className="form-control bg-dark text-white border-secondary" id="password" required />
                     </div>
 
-                    <button type="submit" class="btn btn-primary w-100 mt-2">Login</button>
+                    <button type="submit" className="btn btn-primary w-100 mt-2">Login</button>
                   </form>
                   
                 </div>
